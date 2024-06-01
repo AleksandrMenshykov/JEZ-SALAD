@@ -1,0 +1,30 @@
+.header {
+  font-family: $font-Poppins-Medium;
+  width: 100%;
+  padding-top: 30px;
+  margin-bottom: 65px;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 56px;
+    padding: 10px;
+  }
+
+  &__link:hover {
+    color: $color-brand-primary;
+    font-family: $font-Poppins-Bold;
+  }
+
+  &__sing-link {
+    font-family: $font-Poppins-SemiBold;
+
+    padding: 17px 46px;
+
+  }
+}

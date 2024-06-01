@@ -1,0 +1,58 @@
+.hero {
+  padding: 20px 0 50px;
+  background-image: url(../images/hero-background.png);
+  background-repeat: no-repeat;
+  background-position: 91%;
+
+  &__label {
+    display: inline-block;
+    font-family: $font-Poppins-SemiBold;
+    background-color: $color-bg-light;
+    color: $color-brand-primary;
+    padding: 16px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    max-width: 590px;
+    font-family: $font-Poppins-Bold;
+    font-size: 72px;
+    letter-spacing: -1.44px;
+    margin-bottom: 30px;
+  }
+
+  &__desc {
+    max-width: 496px;
+    font-family: $font-Poppins-Medium;
+    color: $color-light-gray ;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: -0.4px;
+    margin-bottom: 30px;
+  }
+
+  &__order-link {
+    font-family: $font-Poppins-SemiBold;
+    font-size: 18px;
+    padding: 24px 45px;
+    margin-bottom: 88px;
+  }
+
+  &__advantagies-list {
+    display: flex;
+    gap: 52px;
+  }
+
+  &__advantagies-item {
+    color: $color-light-gray;
+    line-height: 1.6;
+
+    &-accent {
+      display: block;
+      font-family: $font-Poppins-SemiBold;
+      font-size: 24px;
+      color: $color-dark-gray;
+    }
+  }
+}

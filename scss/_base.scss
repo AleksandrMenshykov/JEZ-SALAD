@@ -1,0 +1,16 @@
+body {
+  font-family: $font-Poppins-Regular;
+  color: $color-dark-gray;
+  line-height: 1.3;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  max-width: 1202px;
+  margin-inline: auto;
+  padding-inline: 16px;
+}

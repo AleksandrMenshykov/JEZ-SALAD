@@ -9,6 +9,13 @@ img {
   width: 100%;
 }
 
+.svg-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  fill: $color-dark-gray;
+}
+
 .container {
   max-width: 1202px;
   margin-inline: auto;

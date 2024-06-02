@@ -6,6 +6,15 @@
   border-radius: 100px;
 }
 
+.section-title {
+  font-family: $font-Poppins-SemiBold;
+  color: $color-section-title;
+  font-size: 48px;
+  line-height: 1.4;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+}
+
 .title-accent {
   color: $color-brand-primary;
 }

@@ -6,7 +6,6 @@ body {
 
 img {
   display: block;
-  width: 100%;
 }
 
 .svg-icon {
@@ -14,6 +13,10 @@ img {
   width: 24px;
   height: 24px;
   fill: $color-dark-gray;
+}
+
+.section {
+  padding-block: 100px;
 }
 
 .container {

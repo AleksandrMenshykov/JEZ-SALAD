@@ -18,3 +18,12 @@
 .title-accent {
   color: $color-brand-primary;
 }
+
+.section-label {
+  font-family: $font-Poppins-Medium;
+  color: $color-brand-primary;
+  font-size: 20px;
+  line-height: 180%;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+}

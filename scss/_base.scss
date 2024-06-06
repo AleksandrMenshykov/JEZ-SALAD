@@ -9,10 +9,15 @@ img {
 }
 
 .svg-icon {
-  display: block;
+  display: inline-block;
   width: 24px;
   height: 24px;
-  fill: $color-dark-gray;
+  fill: $color-brand-primary;
+  transition: .3s;
+
+  &:hover {
+    fill: $color-dark;
+  }
 }
 
 .section {

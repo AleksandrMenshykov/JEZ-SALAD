@@ -1,0 +1,58 @@
+.footer {
+  padding-block: 50px;
+  line-height: 1.5;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    max-width: 212px;
+    margin-block: 25px 67px;
+    line-height: 1.6;
+  }
+
+  &__title {
+    font-family: $font-Poppins-SemiBold;
+    line-height: 1.375;
+    color: $color-brand-primary;
+
+    &.margin {
+      margin-bottom: 25px;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  &__link:hover {
+    color: $color-brand-primary;
+  }
+
+  &__address {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    font-style: normal;
+
+    &-block {
+      display: flex;
+      gap: 16px;
+    }
+  }
+
+  &__social-block {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  &__social-bar {
+    display: flex;
+    gap: 32px;
+  }
+}
